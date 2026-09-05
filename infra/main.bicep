@@ -119,7 +119,7 @@ var uniqueId = toLower(uniqueString(subscription().id, environmentName, solution
 @description('Location for AI Foundry deployment. This is the location where the AI Foundry resources will be deployed.')
 param aiDeploymentsLocation string
 
-param labInstanceId string = '64708308'
+param labInstanceId string = '64770261'
 var solutionPrefix = 'da${labInstanceId}'
 
 @description('Name of the Azure Container Registry')
